@@ -17,9 +17,9 @@ import org.slf4j.LoggerFactory;
 
 @State(Scope.Thread)
 @BenchmarkMode(Mode.SingleShotTime)
-@Fork(value = 5)
+@Fork(value = 3)
 @Warmup(iterations = 4, time = 1, timeUnit = TimeUnit.SECONDS)
-@Measurement(iterations = 5, time = 1, timeUnit = TimeUnit.SECONDS)
+@Measurement(iterations = 3, time = 1, timeUnit = TimeUnit.SECONDS)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
 public abstract class AbstractPlannerBenchmark<Solution_> {
 
