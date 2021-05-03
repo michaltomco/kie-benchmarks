@@ -1,4 +1,12 @@
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
   <localRepository>maven-repository</localRepository>
+  <mirrors>
+    <mirror>
+      <id>kogito-nightly</id>
+      <name>Kogito testing repo private</name>
+      <url>http://bxms-qe.rhev-ci-vms.eng.rdu2.redhat.com:8081/nexus/content/repositories/kogito-master-nightly</url>
+      <mirrorOf>*</mirrorOf>
+    </mirror>
+  </mirrors>
 </settings>
