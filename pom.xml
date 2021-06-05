@@ -49,7 +49,7 @@
       <dependency>
         <groupId>org.optaplanner</groupId>
         <artifactId>optaplanner-bom</artifactId>
-        <version>8.5.0.Final-redhat-00001</version>
+        <version>8.5.0.redhat-2021050303</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
